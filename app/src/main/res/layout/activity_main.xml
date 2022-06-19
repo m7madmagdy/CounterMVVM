@@ -12,14 +12,16 @@
             android:id="@+id/count_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textColor="@android:color/holo_red_dark"
             android:textSize="40sp"
             android:textStyle="bold"
-            android:typeface="serif"
             app:layout_constraintBottom_toTopOf="@+id/btnCount"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="9" />
 
         <Button
             android:id="@+id/btnCount"
@@ -28,8 +30,8 @@
             android:backgroundTint="@android:color/holo_green_dark"
             android:padding="10dp"
             android:text="Click to Count"
-            android:textSize="18sp"
             android:textAllCaps="false"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
